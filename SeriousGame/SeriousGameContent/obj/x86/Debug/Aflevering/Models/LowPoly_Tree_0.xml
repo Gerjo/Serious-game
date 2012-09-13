@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Aflevering\Models\LowPoly_Tree.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child>
+        <Name>group3</Name>
+        <Transform>-0.145060465 -0.4808524 0 0 0.4808524 -0.145060465 0 0 0 0 0.502256453 0 0 0 0 1</Transform>
+        <Children>
+          <Child>
+            <Name>pasted__group2</Name>
+            <Transform>-0.707106769 9.616068E-09 -0.7071068 0 2.3862734E-08 0.99999994 0 0 0.707106769 -9.616068E-09 -0.7071068 0 0 0 0 1</Transform>
+          </Child>
+        </Children>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>polySurface1</Name>
+        <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+        <Positions>-4 -6 0 4 -6 0 -4 6 0 4 6 0 -2.828427 -6 2.828427 2.828427 -6 -2.828427 -2.828427 6 2.828427 2.828427 6 -2.828427 -8.881784E-16 -6 4 8.881784E-16 -6 -4 -8.881784E-16 6 4 8.881784E-16 6 -4 2.828427 -6 2.828427 -2.828427 -6 -2.828427 2.828427 6 2.828427 -2.828427 6 -2.828427 0.1791555 -8.785562 -0.146836281 -0.1222828 -8.785562 -0.1468358 -0.273001939 -8.785562 0.114218235 -0.1222831 -8.785562 0.375272751 0.179155141 -8.785562 0.375273228 0.329875678 -8.785562 0.114218235 0.02843678 0.7481081 0.114218235 -0.08290872 -1.18247688 0.00267696381 0.0458876044 -1.18247688 0.00267696381 0.110286191 -1.18247688 0.114218235 0.04588744 -1.18247688 0.225759983 -0.08290884 -1.18247688 0.225759983 -0.147306889 -1.18247688 0.114218235 -0.0166026652 -3.86062765 -0.04131508 0.162991479 -3.86062765 -0.0413155556 0.25278914 -3.86062765 0.114218712 0.162991285 -3.86062765 0.269752979 -0.016602844 -3.86062765 0.2697525 -0.106399715 -3.86062765 0.114218712 -0.09215054 -6.20499 -0.119085312 0.17724517 -6.20499 -0.119086266 0.311943978 -6.20499 0.114218712 0.177244842 -6.20499 0.3475237 -0.09215084 -6.20499 0.347522736 -0.2268484 -6.20499 0.114218712 2.828427 -6 2.828427 -2.828427 -6 -2.828427 2.828427 6 2.828427 -2.828427 6 -2.828427</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22 26 25 24 24 27 26 30 29 28 33 32 31 36 35 34 39 38 37 42 41 40 45 44 43 29 47 46 46 28 29 32 49 48 48 31 32 35 51 50 50 34 35 38 53 52 52 37 38 41 55 54 54 40 41 44 57 56 56 43 44 47 6 7 7 46 47 49 26 27 27 48 49 51 22 23 23 50 51 53 18 19 19 52 53 55 14 15 15 54 55 57 10 11 11 56 57</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2 16 17 35 36 17 18 40 35 18 19 39 40 19 20 38 39 20 21 37 38 21 16 36 37 24 23 22 25 24 22 26 25 22 27 26 22 28 27 22 23 28 22 30 29 31 30 32 31 33 32 34 33 29 34</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 -2.50853941E-06 0.0107529229 -0.9999422 -2.50853941E-06 0.0107529229 -0.9999422 -2.853265E-06 0.0219554454 -0.999758959 -2.853265E-06 0.0219554454 -0.999758959 -0.865922153 0.01548714 -0.499939054 -0.865922153 0.01548714 -0.499939054 -0.865637 0.0299720541 -0.499774247 -0.865637 0.0299720541 -0.499774247 -0.865922868 0.0154870059 0.499937952 -0.865922868 0.0154870059 0.499937952 -0.865637541 0.0299719982 0.499773353 -0.865637541 0.0299719982 0.499773353 -2.50853986E-06 0.0107527375 0.9999422 -2.50853986E-06 0.0107527375 0.9999422 -2.83911527E-06 0.0219553467 0.999758959 -2.83911527E-06 0.0219553467 0.999758959 0.8660091 0.006017592 0.499992043 0.8660091 0.006017592 0.499992043 0.86594075 0.0139327217 0.4999525 0.86594075 0.0139327217 0.4999525 0.8660095 0.006017735 -0.499991477 0.8660095 0.006017735 -0.499991477 0.8659412 0.0139328036 -0.49995178 0.8659412 0.0139328036 -0.49995178 -7.71354848E-07 0.0370597951 -0.999313056 -7.71354848E-07 0.0370597951 -0.999313056 0 0.0576796979 -0.9983351 0.8652839 0.04136209 -0.499572933 0.8652839 0.04136209 -0.499572933 0.865441561 0.0366914161 -0.4996645 0.865283966 0.04136215 0.499572664 0.865283966 0.04136215 0.499572664 0.8654419 0.0366914272 0.49966386 -7.2173566E-07 0.0370600075 0.999313056 -7.2173566E-07 0.0370600075 0.999313056 0 0.05767995 0.9983352 -0.865563631 0.03271699 0.499729037 -0.865563631 0.03271699 0.499729037 -0.8633488 0.07859176 0.498449862 -0.865562558 0.032716874 -0.499730885 -0.865562558 0.032716874 -0.499730885 -0.8633475 0.0785916448 -0.498452216 -2.37008976E-06 0.0247905217 -0.9996927 -2.37008976E-06 0.0247905217 -0.9996927 0.8655263 0.0339419059 -0.4997121 0.8655263 0.0339419059 -0.4997121 0.865526 0.0339419581 0.499712616 0.865526 0.0339419581 0.499712616 -2.30632963E-06 0.0247906055 0.999692738 -2.30632963E-06 0.0247906055 0.999692738 -0.86592114 0.0156184258 0.499936521 -0.86592114 0.0156184258 0.499936521 -0.8659205 0.0156183541 -0.499937564 -0.8659205 0.0156183541 -0.499937564</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.00381162646 0.9961884 0.7663917 0.9961884 0.7663917 0.00381159782 0.00381162646 0.00381159782 0.7920494 0.988110065 0.8255656 0.988110065 0.8255655 0.7236126 0.7920494 0.7236126 0.8255656 0.988110065 0.8590815 0.988110065 0.8590815 0.7236126 0.8255655 0.7236126 0.8590815 0.988110065 0.892597556 0.988110065 0.8925975 0.7236126 0.8590815 0.7236126 0.892597556 0.988110065 0.9261136 0.988110065 0.9261136 0.7236126 0.8925975 0.7236126 0.9261136 0.988110065 0.9596296 0.988110065 0.9596296 0.7236126 0.9261136 0.7236126 0.9596296 0.988110065 0.9931457 0.988110065 0.9931457 0.7236126 0.9596296 0.7236126 0.7920494 0.208826721 0.8255656 0.208826721 0.892597556 0.0109500885 0.9596296 0.208826721 0.9931457 0.208826721 0.892597556 0.0109500885 0.9261136 0.208826721 0.9596296 0.208826721 0.892597556 0.0109500885 0.892597556 0.208826721 0.9261136 0.208826721 0.892597556 0.0109500885 0.8590815 0.208826721 0.892597556 0.208826721 0.892597556 0.0109500885 0.8255656 0.208826721 0.8590815 0.208826721 0.892597556 0.0109500885 0.7920494 0.4833256 0.8255655 0.4833256 0.9596296 0.4833256 0.9931457 0.4833256 0.9261136 0.4833256 0.9596296 0.4833256 0.8925975 0.4833256 0.9261136 0.4833256 0.8590815 0.4833256 0.8925975 0.4833256 0.8255655 0.4833256 0.8590815 0.4833256</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+          <Batch>
+            <Material>#Resource2</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>4 5 7 6</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.7071068 0 0.7071068 0.7071068 0 0.7071068 0.7071068 0 0.7071068 0.7071068 0 0.7071068</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.00381162646 0.9961884 0.7663917 0.9961884 0.7663917 0.00381159782 0.00381162646 0.00381159782</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>8 9 11 10</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">1 0 2.220446E-16 1 0 2.220446E-16 1 0 2.220446E-16 1 0 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.00381162646 0.9961884 0.7663917 0.9961884 0.7663917 0.00381159782 0.00381162646 0.00381159782</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+          <Batch>
+            <Material>#Resource4</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>12 13 15 14</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.00381162646 0.9961884 0.7663917 0.9961884 0.7663917 0.00381159782 0.00381162646 0.00381159782</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+          <Batch>
+            <Material>#Resource5</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>41 42 44 43</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0.7071068 0 -0.7071068</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.00381162646 0.9961884 0.7663917 0.9961884 0.7663917 0.00381159782 0.00381162646 0.00381159782</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Aflevering\Models\LowPoly_Tree.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>pasted__lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Aflevering\Models\LowPoly_Tree.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
+      <Name>pasted__lambert3</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Aflevering\Models\LowPoly_Tree.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
+      <Name>pasted__lambert4</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Aflevering\Models\LowPoly_Tree.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource5" Type="Graphics:BasicMaterialContent">
+      <Name>pasted__pasted__lambert5</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Aflevering\Models\LowPoly_Tree.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\A3513898\LowPoly_Tree.fbm\treetexture.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

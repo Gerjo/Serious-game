@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>pPlane1</Name>
+    <Identity>
+      <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\polaroid.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Positions>-4.09132433 -7.027372E-16 4.98132324 4.09132433 -7.027372E-16 4.98132324 -4.09132433 7.027372E-16 -4.98132324 4.09132433 7.027372E-16 -4.98132324 -3.438315 0.07411852 2.87778878 3.438315 0.07411852 2.87778878 3.438315 0.07411852 -4.2667923 -3.438315 0.07411852 -4.2667923</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2</Indices>
+        <Vertices>
+          <PositionIndices>4 5 6 7</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 0 0 1 0 0 1 0 0 1 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.0180104673 0.838221 0.9801626 0.838221 0.9801626 0.1135999 0.0180104673 0.1135999</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+      <Batch>
+        <Material>#Resource2</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 7 5 6 7 8 5 9 8 7 9 10 8 11 10 9 10 6 4 10 11 6</Indices>
+        <Vertices>
+          <PositionIndices>0 2 3 1 1 3 5 6 2 7 0 4</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 -1 -1.410744E-16 0 -1 -1.410744E-16 0 -1 -1.410744E-16 0 -1 -1.410744E-16 0.0564883053 0.998247445 0.0176375639 0.07538186 0.9965584 -0.0344818756 0.0564883128 0.998247445 0.0176375639 0.0376909375 0.996906936 -0.06896376 -0.03769092 0.9969069 -0.06896375 -0.07538185 0.9965584 -0.034481883 -0.0564883053 0.998247445 0.0176375639 -0.0564883128 0.998247445 0.0176375657</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 0 0.226449251 1 0.226449251 1 1 0.848454 0.7532218 0.848454 0.207355559 0.848454 0.7532218 0.848454 0.207355559 0.337038 0.207355559 0.337038 0.207355559 0.337038 0.7532218 0.337038 0.7532218</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert4</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\polaroid.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>lambert3</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\polaroid.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\87AE363F\polaroid.fbm\livingroom.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

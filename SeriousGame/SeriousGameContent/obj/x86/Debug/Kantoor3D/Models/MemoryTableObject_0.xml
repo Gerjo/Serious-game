@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:NodeContent">
+    <Name>RootNode</Name>
+    <Identity>
+      <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\MemoryTableObject.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Children>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane1</Name>
+        <Transform>0.743576348 0 0.107526667 0 0 1 0 0 -0.143118769 0 0.9897055 0 -3.4212513 0 -2.5022893 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource1</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane2</Name>
+        <Transform>0.7047863 0 -0.260276884 0 0 1 0 0 0.346430421 0 0.938075662 0 1.42583013 0 -0.04114669 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource2</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane3</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -5.63097763 0 -2.45066047 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane4</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -1.110211 0 2.58474374 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane5</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -0.8090808 0 -2.36630583 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane6</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 1.56216216 0 -2.36630583 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane7</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 3.95687962 0 -2.36630583 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane8</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 3.8278842 0 0.141712487 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane9</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 3.95687962 0 2.4327898 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane10</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -5.6839757 0 -0.016450068 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane11</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -3.26504946 0 0.230793178 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane12</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -3.45808387 0 2.4327898 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane13</Name>
+        <Transform>0.7374521 0 0.1436392 0 0 1 0 0 -0.191184819 0 0.981554031 0 6.77264357 0 -1.87502289 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource4</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane14</Name>
+        <Transform>0.61615634 0 0.429905951 0 0 1 0 0 -0.5722079 0 0.8201086 0 6.77264357 0.02 -0.5745657 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource4</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+      <Child Type="Graphics:MeshContent">
+        <Name>pPlane15</Name>
+        <Transform>0.7513107 0 0 0 0 1 0 0 0 0 1 0 -5.64420128 0 2.4327898 1</Transform>
+        <Positions>-1.29755485 -2.238295E-16 1.0080384 1.29755485 -2.238295E-16 1.0080384 -1.29755485 2.238295E-16 -1.0080384 1.29755485 2.238295E-16 -1.0080384</Positions>
+        <Geometry>
+          <Batch>
+            <Material>#Resource3</Material>
+            <Indices>2 1 0 0 3 2</Indices>
+            <Vertices>
+              <PositionIndices>0 1 3 2</PositionIndices>
+              <Channels>
+                <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16 0 1 2.220446E-16</VertexChannel>
+                <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0 1 1 1 1 0 0 0</VertexChannel>
+              </Channels>
+            </Vertices>
+          </Batch>
+        </Geometry>
+      </Child>
+    </Children>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\MemoryTableObject.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>lambert3</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\MemoryTableObject.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External2</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External2</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
+      <Name>lambert1</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\MemoryTableObject.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External3</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External3</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+    <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
+      <Name>lambert4</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\MemoryTableObject.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External4</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External4</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\851A39FD\MemoryTableObject.fbm\zebra.png</ExternalReference>
+    <ExternalReference ID="#External2" TargetType="Graphics:TextureContent">..\..\FBX\851A39FD\MemoryTableObject.fbm\Jaguar.png</ExternalReference>
+    <ExternalReference ID="#External3" TargetType="Graphics:TextureContent">..\..\FBX\851A39FD\MemoryTableObject.fbm\cardsBack.png</ExternalReference>
+    <ExternalReference ID="#External4" TargetType="Graphics:TextureContent">..\..\FBX\851A39FD\MemoryTableObject.fbm\goat.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

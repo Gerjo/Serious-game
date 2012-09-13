@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2242F323-2F8C-4F39-AC26-1DA261E2A104}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kantoor3D</RootNamespace>
+    <AssemblyName>Kantoor3D</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>98cde77b-c988-4874-955d-7cc4a8c8da36</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameObjects\Boekenkast.cs" />
+    <Compile Include="GameObjects\Buro.cs" />
+    <Compile Include="GameObjects\BuroStoel.cs" />
+    <Compile Include="GameObjects\Computerkast.cs" />
+    <Compile Include="GameObjects\Computerscherm.cs" />
+    <Compile Include="GameObjects\Deur.cs" />
+    <Compile Include="GameObjects\Globe.cs" />
+    <Compile Include="GameObjects\Hanglamp.cs" />
+    <Compile Include="GameObjects\KeyboardModel.cs" />
+    <Compile Include="GameObjects\Laptop.cs" />
+    <Compile Include="GameObjects\MemoryTableObject.cs" />
+    <Compile Include="GameObjects\MouseModel.cs" />
+    <Compile Include="GameObjects\Mug.cs" />
+    <Compile Include="GameObjects\Painting.cs" />
+    <Compile Include="GameObjects\Player.cs" />
+    <Compile Include="GameObjects\Polaroid.cs" />
+    <Compile Include="GameObjects\PuzzelDoos.cs" />
+    <Compile Include="GameObjects\Radio.cs" />
+    <Compile Include="GameObjects\TafelFotograaf.cs" />
+    <Compile Include="GameObjects\SchildersEzel.cs" />
+    <Compile Include="GameObjects\TafelOntwerpen.cs" />
+    <Compile Include="GameObjects\Kantoor.cs" />
+    <Compile Include="GameObjects\TafelUitnodiging.cs" />
+    <Compile Include="GameObjects\Telefoon.cs" />
+    <Compile Include="GameObjects\Watercooler.cs" />
+    <Compile Include="Hud.cs" />
+    <Compile Include="Kantoor3D.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aflevering\Aflevering.csproj">
+      <Project>{8B39729F-6C28-438C-A936-1C5797CA4D42}</Project>
+      <Name>Aflevering</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fotograaf\Fotograaf.csproj">
+      <Project>{54CDCF7A-FC4F-4F76-9CAE-A98D6896818E}</Project>
+      <Name>Fotograaf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Menu\Menu.csproj">
+      <Project>{DD41718E-23D8-4E05-B879-63B88BD6A5AC}</Project>
+      <Name>Menu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ontwerpen\Ontwerpen.csproj">
+      <Project>{5A42CC70-1271-46F4-B74C-35DAF0A2C0D3}</Project>
+      <Name>Ontwerpen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Schilder\Schilder.csproj">
+      <Project>{C31DCBEC-4AC3-48BB-8AE8-E323DC887FC4}</Project>
+      <Name>Schilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SeriousGameLib\SeriousGameLib.csproj">
+      <Project>{DCB00360-DD9F-43F8-8E25-43994262873C}</Project>
+      <Name>SeriousGameLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Uitnodiging\Uitnodiging.csproj">
+      <Project>{20DBB575-D84C-4D8F-9715-E885C85D0299}</Project>
+      <Name>Uitnodiging</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

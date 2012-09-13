@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>pCube1</Name>
+    <Identity>
+      <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\Computerscherm_3DWereld_Ready.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>0.229609087 0 0 0 0 1 0 0 0 0 1 0 -0.0136165684 1.684455 -0.0204347819 1</Transform>
+    <Positions>-0.342348725 -4.807524 8.874848 1.69649863 -4.807524 8.874848 -0.342348725 4.807524 8.874848 1.69649863 4.807524 8.874848 -0.342348725 4.807524 -8.874848 1.69649863 4.807524 -8.874848 -0.342348725 -4.807524 -8.874848 1.69649863 -4.807524 -8.874848 1.69649863 -4.3468647 -8.235587 1.69649863 -4.3468647 8.235587 1.69649863 4.3468647 -8.235587 1.69649863 4.3468647 8.235587 -0.05799684 -4.3468647 -8.235587 -0.05799684 -4.3468647 8.235587 -0.05799684 4.3468647 -8.235587 -0.05799684 4.3468647 8.235587 -2.426871 -4.570729 -3.95820045 -2.426871 -4.570729 3.9582 -2.426871 4.570729 3.9582 -2.426871 4.570729 -3.95820045 -0.342348725 -4.807524 -2.791883 1.69649863 -4.807524 -2.791883 1.69649863 -4.807524 2.791884 -0.342348725 -4.807524 2.791884 -0.342348725 -5.324301 -2.791883 1.69649863 -5.324301 -2.791883 1.69649863 -5.324301 2.791884 -0.342348725 -5.324301 2.791884 -3.69638538 -5.811256 -4.50558233 5.05053425 -5.811256 -4.50558233 5.05053425 -5.811256 4.50558329 -3.69638538 -5.811256 4.50558329 -3.69638538 -5.921684 -4.50558233 5.05053425 -5.921684 -4.50558233 5.05053425 -5.921684 4.50558329 -3.69638538 -5.921684 4.50558329</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 6 5 4 4 7 6 10 9 8 8 11 10 14 13 12 12 15 14 18 17 16 16 19 18 22 21 20 20 23 22 25 24 21 21 22 25 27 26 24 24 25 27 23 20 26 26 27 23 30 29 28 28 31 30 34 33 32 32 35 34 38 37 36 36 39 38 42 41 40 40 43 42 46 45 44 44 47 46 18 49 48 48 17 18 51 50 4 4 52 51 16 54 53 53 19 16 57 56 55 55 58 57 61 60 59 59 62 61 65 64 63 63 66 65 58 55 64 64 65 58 69 68 67 67 70 69 73 72 71 71 74 73 77 76 75 75 78 77 81 80 79 79 82 81 85 84 83 83 86 85 89 88 87 87 90 89 93 92 91 91 94 93 97 96 95 95 98 97 101 100 99 99 102 101 105 104 103 103 106 105 109 108 107 107 110 109 113 112 111 111 114 113</Indices>
+        <Vertices>
+          <PositionIndices>0 1 3 2 2 3 5 4 4 5 7 6 32 33 34 35 16 17 18 19 1 7 8 9 5 10 3 11 9 8 12 13 8 10 14 12 10 11 15 14 11 9 13 15 6 0 17 16 0 2 4 19 18 4 6 6 7 21 20 7 1 22 21 1 0 23 22 20 21 25 24 21 22 26 25 22 23 27 26 23 20 24 27 24 25 29 28 25 26 30 29 26 27 31 30 27 24 28 31 28 29 33 32 29 30 34 33 30 31 35 34 31 28 32 35</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">0 0 1 0 0 1 0 0 1 0 0 1 -0.0565258861 0.998401046 0 0 1 0 0 1 0 -0.0565258861 0.998401046 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.9799671 0 -0.19915922 -0.9799671 0 0.1991592 -0.9799671 0 0.1991592 -0.9799671 0 -0.19915922 1 7.56204059E-08 0 1 7.56204059E-08 0 1 7.56204059E-08 0 1 7.56204059E-08 0 1 -7.56204059E-08 0 1 -7.56204059E-08 0 1 -7.56204059E-08 0 1 -7.56204059E-08 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.0565258861 -0.998401046 0 -0.0565258861 -0.998401046 0 -0.112871043 -0.9936097 0 -0.112871043 -0.9936097 0 -0.9206712 0 0.390338957 -0.9206712 0 0.390338957 -0.0565258861 0.998401046 0 -0.112871043 0.9936097 0 -0.112871043 0.9936097 0 -0.9206713 0 -0.390339047 -0.9206713 0 -0.390339047 -0.0565258861 -0.998401046 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 0 -0.0565258861 -0.998401046 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.961919367 -0.27333343 0 0.961919367 -0.27333343 0 0.961919367 -0.27333343 0 0.961919367 -0.27333343 0.143678471 0.989624441 0 0.143678471 0.989624441 0 0.143678471 0.989624441 0 0.143678471 0.989624441 0 0 0.9619194 0.273333251 0 0.9619194 0.273333251 0 0.9619194 0.273333251 0 0.9619194 0.273333251 -0.143678427 0.9896245 0 -0.143678427 0.9896245 0 -0.143678427 0.9896245 0 -0.143678427 0.9896245 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">0.375 1 0.625 1 0.625 0.75 0.375 0.75 0.375 0.75 0.625 0.75 0.625 0.5 0.375 0.5 0.375 0.5 0.625 0.5 0.625 0.25 0.375 0.25 0.375 0.25 0.625 0.25 0.625 0 0.375 0 0.125 1 0.375 1 0.375 0.75 0.125 0.75 0.625 1 0.875 1 0.875 1 0.625 1 0.875 0.75 0.875 0.75 0.625 0.75 0.625 0.75 0.625 1 0.875 1 0.875 1 0.625 1 0.875 1 0.875 0.75 0.875 0.75 0.875 1 0.875 0.75 0.625 0.75 0.625 0.75 0.875 0.75 0.625 0.75 0.625 1 0.625 1 0.625 0.75 0.125 1 0.375 1 0.375 1 0.125 1 0.375 1 0.375 0.75 0.125 0.75 0.125 0.75 0.375 0.75 0.125 0.75 0.125 1 0.375 0.25 0.625 0.25 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0 0.625 0 0.625 0.25 0.625 0 0.375 0 0.375 0 0.625 0 0.375 0.25 0.625 0.25 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0 0.625 0 0.625 0.25 0.625 0 0.375 0 0.375 0 0.625 0 0.375 0 0.375 0.25 0.375 0.25 0.375 0 0.375 0.25 0.625 0.25 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0 0.625 0 0.625 0.25 0.625 0 0.375 0 0.375 0 0.625 0 0.375 0 0.375 0.25 0.375 0.25 0.375 0 0.375 0.25 0.625 0.25 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0 0.625 0 0.625 0.25 0.625 0 0.375 0 0.375 0 0.625 0 0.375 0 0.375 0.25 0.375 0.25 0.375 0</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+      <Batch>
+        <Material>#Resource2</Material>
+        <Indices>2 1 0 0 3 2</Indices>
+        <Vertices>
+          <PositionIndices>13 12 14 15</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">1 0 0 1 0 0 1 0 0 1 0 0</VertexChannel>
+            <VertexChannel Name="TextureCoordinate0" ElementType="Framework:Vector2">5.96046448E-08 0.763556957 1 0.763556957 1 0.2373504 5.96046448E-08 0.2373504</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>phongE1</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\Computerscherm_3DWereld_Ready.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+    </Resource>
+    <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
+      <Name>lambert2</Name>
+      <Identity>
+        <SourceFilename>C:\Users\G. Meier\Documents\Visual Studio 2010\Projects\EssenzaSeriousGame(7)\SeriousGame\SeriousGameContent\Kantoor3D\Models\Computerscherm_3DWereld_Ready.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">0.8 0.8 0.8</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">0 0 0</Data>
+      </OpaqueData>
+      <Textures>
+        <Texture Key="Texture">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+        <Texture Key="Transparency">
+          <OpaqueData>
+            <Data Key="TextureCoordinate">TextureCoordinate0</Data>
+          </OpaqueData>
+          <Reference>#External1</Reference>
+        </Texture>
+      </Textures>
+    </Resource>
+  </Resources>
+  <ExternalReferences>
+    <ExternalReference ID="#External1" TargetType="Graphics:TextureContent">..\..\FBX\5D333EC3\Computerscherm_3DWereld_Ready.fbm\monitorscreenshot.png</ExternalReference>
+  </ExternalReferences>
+</XnaContent>

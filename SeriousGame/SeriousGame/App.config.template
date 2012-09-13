@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="CurrentMiniGame" value="Fotograaf" />
+    <add key="Width" value="1280" />
+    <add key="Height" value="720" />
+    <add key="RestrictFrameRate" value="false" />
+    <add key="MuteSounds" value="false" />
+  </appSettings>
+</configuration>
